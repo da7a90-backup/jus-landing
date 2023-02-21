@@ -1,0 +1,602 @@
+.careers{
+  height: 1800px;
+}
+  .JoinUs,
+  .loremIpsumDolor9 {
+    position: absolute;
+    display: inline-block;
+  }
+  .JoinUs {
+    top: 0;
+    left: 0;
+    font-weight: 800;
+    width: 950.56px;
+    height: 289.75px;
+    text-shadow: -10px 10px 3px rgba(0, 0, 0, 0.16);
+  }
+  .loremIpsumDolor9 {
+    top: 289.75px;
+    left: 7.49px;
+    font-size: var(--font-size-lg);
+    font-weight: 300;
+    color: var(--color-white);
+    width: 581.57px;
+    height: 156.75px;
+  }
+  .titleAndText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 950.56px;
+    height: 446.5px;
+    font-size: 69px;
+    color: var(--color-peachpuff);
+  }
+  .job-list{
+    color: #ffff;
+    width: 100vw;
+  }
+  .openPositions{
+    padding-top: 20px;
+    color: #ffff;
+  }
+  .submitResume{
+    width: 100vw;
+  }
+
+  .submitLink{
+    color: var(--color-peachpuff);
+  }
+  .pg1 {
+    position: absolute;
+    top: 224px;
+    left: 93px;
+    font-size: var(--font-size-lg);
+  }
+  .pg2 {
+    top: 1130px;
+    left: 0;
+    width: 1703.01px;
+    height: 979.85px;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  h1 {
+    font-size: 35px;
+  }
+  
+  h4 {
+    font-size: 17px;
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .jusBgRemovebgIcon {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 286px;
+        height: 281px;
+        left: 28px;
+        top: 506px;        
+        
+        object-fit: cover;
+      }
+      .appStoresIcon {
+        top: 290px;
+        width: 164.8px;
+        height: 32.25px;
+        left: 50px;
+      }
+      .currentlyAvailableTo {
+        font-weight: 400;
+        display: inline-block;
+        width: 100vw;
+      }
+
+      .flagParent {
+        display: flex;
+        flex-direction: row;
+        left: 40px;
+      }
+      .ivorycoastFlagIcon,
+      .maliFlagIcon,
+      .nigerFlagIcon {
+        position: absolute;
+        top: 0;
+        left: 103.89px;
+        border-radius: var(--br-md);
+        width: 30px;
+        height: 20px;
+        object-fit: cover;
+      }
+      .maliFlagIcon,
+      .nigerFlagIcon {
+        left: 139.14px;
+      }
+      .nigerFlagIcon {
+        left: 174.4px;
+        width: 30px;
+      }
+      .beninFlagIcon,
+      .burkinafasoFlagIcon,
+      .guineabissauFlagIcon,
+      .senegalFlagIcon,
+      .togoFlagIcon {
+        position: absolute;
+        top: 0;
+        left: 210.59px;
+        border-radius: var(--br-md);
+        width: 30px;
+        height: 20px;
+        object-fit: cover;
+      }
+      .beninFlagIcon,
+      .burkinafasoFlagIcon,
+      .guineabissauFlagIcon,
+      .togoFlagIcon {
+        left: 245.84px;
+        width: 30px;
+      }
+      .beninFlagIcon,
+      .burkinafasoFlagIcon,
+      .guineabissauFlagIcon {
+        left: 0px;
+        width: 30px;
+      }
+      .burkinafasoFlagIcon,
+      .guineabissauFlagIcon {
+        left: 34.32px;
+      }
+      .guineabissauFlagIcon {
+        left: 68.63px;
+        width: 30px;
+      }
+      .waemuRegion {
+        top: 350px;
+        width: 350px;
+        overflow: hidden;
+    }
+
+      .JoinUs {
+        font-weight: 800;
+        width: 100vw;
+        height: 89.75px;
+        text-shadow: -10px 10px 3px rgba(0, 0, 0, 0.16);
+      }
+      .loremIpsumDolor9 {
+        top: 100px;
+        left: 40px;
+        font-size: var(--font-size-lg);
+        font-weight: 300;
+        color: var(--color-white);
+        width: 281.57px;
+        height: 86.75px;
+      }
+      .titleAndText {
+        font-size: 39px;
+        color: var(--color-peachpuff);
+        width: 100vw;
+        overflow: hidden;
+      }
+
+      .pg1 {
+        display: flex;
+        flex-direction: column;
+        font-size: var(--font-size-lg);
+        top: 120px;
+        left: 0;
+      }
+
+      .aheadOfThe,
+      .pg2,
+      .text2 {
+        position: absolute;
+        top: 70px;
+        left: 31px;
+        width: 315px;
+        height: 165px;
+        line-height: 18px;
+        font-size: var(--font-size-lg);
+        color: var(--color-white);
+      }
+      .aheadOfThe,
+      .pg2 {
+        display: flex;
+        flex-direction: column;
+        top: 1137px;
+        left: 0;
+        width: 100vw;
+        height: 979.85px;
+        font-size: var(--font-size-lg);
+        color: var(--color-black);
+      }
+      .pg2{
+        overflow: hidden;
+      }
+      .aheadOfThe {
+        top: 11.81px;
+        left: 32.17px;
+        font-size: var(--font-size-lg);
+        font-weight: 800;
+        color: var(--color-whitesmoke-100);
+        display: none;
+        width: 100vw;
+        height: 151.52px;
+        text-shadow: -10px 10px 3px rgba(0, 0, 0, 0.16);
+      }
+      .defiIsRevolutionaryContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: var(--font-size-3xl);
+        font-weight: 800;
+        color: var(--color-peachpuff);
+        display: inline-block;
+        width: 315px;
+        height: 268px;
+        line-height: 51px;
+        text-shadow: -10px 10px 3px rgba(0, 0, 0, 0.16);
+        mix-blend-mode: hard-light;
+      }
+
+      .defibabylonFaultyFinancialIcon,
+      .personIcon {
+        position: absolute;
+        top: 661px;
+        left: 165px;
+        width: 307px;
+        height: 205px;
+        object-fit: cover;
+      }
+      .defibabylonFaultyFinancialIcon {
+        top: 550px;
+        left: 0;
+        width: 293px;
+        height: 218px;
+      }
+
+      .getNotified {
+        position: absolute;
+        top: 450.33px;
+        left: 24px;
+        width: 330px;
+        height: 39px;
+      }
+
+  .getNotifiedChild,
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: -10px 10px 3px rgba(0, 0, 0, 0.16);
+    height: 68.18px;
+  }
+  .getNotifiedChild {
+    border: 0;
+    background-color: var(--color-whitesmoke-200);
+    border-radius: var(--br-md);
+    width: 208px;
+    height: 37px;
+    left: 14px;
+    top: 10px;
+  }
+  .groupChild {
+    border-radius: var(--br-lg);
+    background-color: var(--color-peachpuff);
+    border: 1px solid var(--color-dimgray);
+    box-sizing: border-box;
+    width: 103px;
+    height: 38px;
+    top: 0;
+  }
+  .getNotified1 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-dosis);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    width: 74px;
+    height: 20px;
+  }
+  .rectangleParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 233px;
+    width: 100px;
+    height: 38.18px;
+  }
+  .tashomavilinigmailcom {
+    position: absolute;
+    top: 19.27px;
+    left: 27.39px;
+    font-weight: 300;
+    display: inline-block;
+    width: 223px;
+    height: 20px;
+    -webkit-text-stroke: 1px #000;
+  }
+  .loremIpsumDolor3,
+  .loremIpsumDolor4 {
+    position: absolute;
+    top: 113.84px;
+    left: 0;
+    font-weight: 300;
+    display: inline-block;
+    width: 315px;
+    height: 165px;
+  }
+  .loremIpsumDolor4 {
+    top: 233.56px;
+    width: 315px;
+    height: 165px;
+  }
+
+  .pg3{
+    position: absolute;
+    width: 100vw;
+    height: 785px;
+    left: -46px;
+    top: 2217px;
+  }
+
+  .noHeadaches{
+    width: 288px;
+    height: 77px;
+    left: 87px;
+    font-size: var(--font-size-4xl);
+  }
+  .defibabylonSmartphoneSimpleIcon {
+    position: absolute;
+    top: 168.39px;
+    left: 10px;
+    width: 222px;
+    height: 146px;
+    object-fit: cover;
+}
+    
+.fundWithMobileContainer{
+position: absolute;
+top: 73.85px;
+font-size: var(--font-size-3xl);
+left: 180.08px;
+font-weight: 800;
+display: inline-block;
+width: 219px;
+height: 145px;
+}
+
+.loremIpsumDolor1{
+    position: absolute;
+    top: 155px;
+    left: 195px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--color-white);
+    display: inline-block;
+    width: 167.01px;
+    height: 194.3px;
+}
+
+.defibabylonPiggyBankIconW {
+    position: absolute;
+    top: 390.99px;
+    left: 10px;
+    width: 222px;
+    height: 146px;
+    object-fit: cover;
+}
+
+.combatInflationWith {
+    position: absolute;
+    top: 377.22px;
+    font-size: var(--font-size-3xl);
+    left: 180px;
+    font-weight: 800;
+    display: inline-block;
+    width: 219px;
+    height: 145px;
+}
+
+.loremIpsumDolor2 {
+    top: 452.7px;
+    left: 195px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--color-white);
+    width: 167px;
+    height: 194px;
+}
+
+.accessWeb3Yield {
+    position: absolute;
+    top: 622.49px;
+    left: 180px;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 219px;
+    height: 145px;
+}
+
+.loremIpsumDolor {
+    top: 702.7px;
+    left: 195px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--color-white);
+    width: 167px;
+    height: 194px;
+}
+
+.defibabylonProfitGraphIcon {
+    position: absolute;
+    top: 625.99px;
+    left: 10px;
+    width: 222px;
+    height: 146px;
+    object-fit: cover;
+}
+
+.pg4 {
+    position: absolute;
+    top: 3264px;
+    left: 0;
+    width: 100vw;
+    height: 981px;
+    color: var(--color-peachpuff);
+}
+
+.aheadOfThe1{
+    height: 55px;
+    width: 345px;
+    top: 0;
+    left: 10.29px;
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    color: var(--color-whitesmoke-100);
+    text-shadow: -10px 10px 3px rgb(0 0 0 / 16%);
+}
+
+.fullyLicensedCustodian{
+    position: absolute;
+    top: 80px;
+    left: 10.29px;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 309px;
+    height: 35px;
+    -webkit-text-stroke: 1px #000;
+    mix-blend-mode: color-dodge;
+}
+
+.loremIpsumDolor5, .loremIpsumDolor6, .loremIpsumDolor7 {
+    top: 125px;
+    left: 32.17px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--color-white);
+    height: 94.57px;
+    width: 319px;
+}
+
+.proofOfReserves{
+    top: 240px;
+    left: 10.29px;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 309px;
+    height: 35px;
+    -webkit-text-stroke: 1px #000;
+    mix-blend-mode: color-dodge;
+}
+
+.loremIpsumDolor6 {
+    position: absolute;
+    top: 279.43px;
+    display: inline-block;
+    width: 319px;
+}
+
+.protectionFromInflation {
+    top: 385px;
+    left: 10.29px;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 309px;
+    height: 35px;
+    -webkit-text-stroke: 1px #000;
+    mix-blend-mode: color-dodge;
+}
+
+.loremIpsumDolor7 {
+    position: absolute;
+    display: inline-block;
+    width: 319px;
+    top: 430px;
+}
+.poweredByCardano {
+    top: 541.72px;
+    left: 10.29px;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 309px;
+    height: 35px;
+    -webkit-text-stroke: 1px #000;
+    mix-blend-mode: color-dodge;
+}
+
+.loremIpsumDolor8 {
+    top: 581.01px;
+    left: 32px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--color-white);
+    width: 319px;
+    height: 55px;
+}
+.defibabylonPadlockIconSimp {
+    position: absolute;
+    top: 620.56px;
+    left: 170.63px;
+    width: 190px;
+    height: 205px;
+    object-fit: cover;
+}
+      .bg4 {
+        position: absolute;
+        top: 3219px;
+        left: 0;
+        background: radial-gradient(50% 50%at 50% 50%, #dd8043, #ffc5a0);
+        width: 100vw;
+        height: 1082px;
+      }
+      .bgIcon {
+        top: 0;
+        height: 1079px;
+        object-fit: cover;
+        display: none;
+      }
+      .bg1Icon,
+      .bg2,
+      .bg3Icon,
+      .bgIcon {
+        position: absolute;
+        left: 0;
+        width: 100%;
+      }
+      .bg1Icon {
+        top: 0;
+        height: 1079px;
+        object-fit: cover;
+        width: 100%;
+      }
+      .bg2,
+      .bg3Icon {
+        height: 1082px;
+      }
+      .bg2 {
+        top: 1077px;
+        background: linear-gradient(135deg, #82aba4, #eea06f);
+      }
+      .bg3Icon {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 100vw;
+        top: 2139px;
+        background: radial-gradient(50% 50% at 0% 0%, #FFC5A0 0%, #EEA06F 100%);
+    }
+
+  }

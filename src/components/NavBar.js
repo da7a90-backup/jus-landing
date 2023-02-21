@@ -9,22 +9,44 @@ function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-container">
+        <div className="nav-container menu">
+          <div className="menuChild"></div>
           <NavLink exact to="/" className="nav-logo">
-            CodeBucks
-            <i className="fas fa-code"></i>
+            <img className="logo" alt="" src="../group-44.svg" />
           </NavLink>
-
+          <div className="groupParent">
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <div className="languageButton">
+          <div className="englishParent nav-item">
+            <div className="english">English</div>
+            <img
+              className="americanFlag1Icon"
+              alt=""
+              src="../american-flag1@2x.png"
+            />
+            <img className="groupIcon" alt="" src="../group-30.svg" />
+          </div>
+        </div>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/Careers"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Home
+                Careers
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/FAQ"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                FAQ
               </NavLink>
             </li>
             <li className="nav-item">
@@ -35,7 +57,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li className="nav-item">
@@ -49,7 +71,7 @@ function NavBar() {
                 Blog
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="getEarlyAccess">
               <NavLink
                 exact
                 to="/contact"
@@ -57,10 +79,11 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                <button className="groupInner" disabled>Get early access</button>
               </NavLink>
             </li>
           </ul>
+          </div>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>

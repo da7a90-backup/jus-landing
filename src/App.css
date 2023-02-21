@@ -1,15 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
-
+html {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 body {
-  background-color: #b5fac7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  position: relative;
+  overflow-x: hidden;
+  background-color: var(--color-white);
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-dosis);
+}
+.pages{
+flex-grow: 1;
 }
 
-.pages {
-  color: #316685;
-  text-align: center;
-  font-size: 3.5rem;
-  margin-top: 10%;
+:root {
+  /* fonts */
+  --font-dosis: Dosis;
+
+  /* font sizes */
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-base: 19px;
+  --font-size-lg: 20px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 28px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 45px;
+  --font-size-6xl: 88px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-peachpuff: #ffc5a0;
+  --color-peachpuff-dark: #fca26b;
+  --color-peachpuff-light: #ffcdb4;
+  --color-gray: rgba(255, 255, 255, 0.02);
+  --color-whitesmoke-100: #faf9f8;
+  --color-whitesmoke-200: #f0f5f7;
+  --color-dimgray: #707070;
+  --color-palegoldenrod: #ffffb9;
+
+  /* border radiuses */
+  --br-sm: 1px;
+  --br-md: 7px;
+  --br-lg: 67px;
 }
